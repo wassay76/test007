@@ -1,8 +1,9 @@
 import React from 'react';
 
-  return Room(
+function Room() {
+  return (
     <div>
-      this message is from room.js
+      this message is from room 
     </div>
   );
 }
