@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "./Room.css";
 
 function Room() {
     //const state = useState(true);
@@ -18,7 +19,7 @@ function Room() {
 
 
   return (
-    <div>
+    <div className={` room ${islit? "lit":"dark"}`}>
       the room is {islit? "lit": "dark"}
     <br/>
     <button onClick={updatelit}>toogle light</button>
